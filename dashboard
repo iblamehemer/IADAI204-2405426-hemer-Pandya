@@ -1,0 +1,194 @@
+📝 Dashboard Explanation Document
+
+Interactive Analytics Dashboard — Airbnb Urban Insights
+
+Figma Prototype:
+🔗 https://www.figma.com/make/eoyuPW1ltE6VRLvvVLrA00/Design-Analytics-Dashboard-UI?t=6Evyz2J6wrtKbvXx-1
+
+⸻
+
+1. Project Purpose
+
+The purpose of this dashboard is to visually explore Airbnb listing data across U.S. cities (2023) to uncover patterns in pricing, availability, traveler engagement, and accommodation types.
+
+It is designed to support decision-making for stakeholders such as Airbnb strategists, city planners, and tourism researchers. The dashboard turns raw data into interactive, intuitive insights that can influence pricing strategy, urban housing policy, and tourism planning.
+
+⸻
+
+2. Target Audience
+
+This dashboard is intended for:
+	•	Airbnb Executives — for performance reviews, pricing analysis, and market trends
+	•	City Planners & Government Agencies — to analyze tourism pressure and housing impact
+	•	Data Analysts & Researchers — for exploring patterns in urban short-term rentals
+	•	Business Strategists — to identify opportunities and weaknesses
+
+⸻
+
+3. Dashboard Overview
+
+The dashboard provides an interactive interface where users can:
+
+✔ Filter by City
+✔ Filter by Room Type
+✔ Adjust Price Range
+✔ Drill into Review Counts
+
+Link to design prototype:
+🔗 https://www.figma.com/make/eoyuPW1ltE6VRLvvVLrA00/Design-Analytics-Dashboard-UI?t=6Evyz2J6wrtKbvXx-1
+
+⸻
+
+4. Filter Panel
+
+The left side of the dashboard contains interactive filters:
+
+City Dropdown — Select a city to focus the analysis
+Room Type Selector — Compare Entire homes, Private rooms, Shared rooms
+Price Range Slider — Explore price tiers
+Review Count Slider — Focus on highly reviewed listings
+
+These filters let users explore specific segments and draw targeted insights from the visualizations.
+
+⸻
+
+5. Main Visual Sections
+
+🟦 A. Price Comparison by City
+
+Chart Type: Bar Chart
+Fields Used:
+	•	X-axis: City
+	•	Y-axis: Average Price
+	•	Color: # of Reviews
+
+Function:
+Compares average nightly price across cities and indicates relative market engagement.
+
+Key Insight:
+Price levels vary significantly between cities, reflecting tourism demand and cost of living.
+
+⸻
+
+🟩 B. Neighborhood Popularity Heatmap
+
+Chart Type: Geographic Heatmap
+Fields Used:
+	•	Latitude & Longitude
+	•	Number of Reviews / Listing Density
+
+Function:
+Shows where Airbnb listings are most active.
+
+Key Insight:
+Tourism is concentrated in specific neighborhoods, indicating hotspot regions.
+
+⸻
+
+🟨 C. Room Type Distribution
+
+Chart Type: Stacked Bar Chart
+Fields Used:
+	•	X-axis: City
+	•	Y-axis: Count of Listings
+	•	Color: Room Type
+
+Function:
+Displays the mix of listing types in each city.
+
+Key Insight:
+Entire homes are the most common listing, suggesting professional hosting.
+
+⸻
+
+🟪 D. Availability by Neighborhood
+
+Chart Type: Bar / Box Plot
+Fields Used:
+	•	Neighborhood
+	•	Availability_365
+
+Function:
+Shows how often listings are available in the calendar year.
+
+Key Insight:
+Low availability may indicate high tourism demand or long-term rental conversion.
+
+⸻
+
+🔵 E. Price vs Reviews Scatter Plot
+
+Chart Type: Scatter Plot
+Fields Used:
+	•	X-axis: Price
+	•	Y-axis: Number of Reviews
+	•	Color: Room Type
+
+Function:
+Examines the relationship between price and engagement.
+
+Key Insight:
+Higher prices do not always correlate with more reviews; mid-range properties often perform strongly.
+
+⸻
+
+6. Interactive Features
+
+All charts respond to the filter controls:
+
+✔ Selecting a city updates every chart
+✔ Filtering by room type isolates accommodation behavior
+✔ Price sliders adjust distribution visuals
+✔ Review filters highlight high-engagement listings
+
+Interactivity supports deeper investigation and tailored insights.
+
+⸻
+
+7. Key Insights
+
+1. Pricing Patterns:
+Cities vary in average pricing — expensive markets often align with high engagement.
+
+2. Neighborhood Hotspots:
+Review density maps highlight clear tourism clusters.
+
+3. Accommodation Trends:
+Entire homes dominate, indicating professional or commercial hosting.
+
+4. Availability Pressures:
+Consistently low availability suggests part-time hosting or housing market strain.
+
+5. Engagement Signals:
+Scatter analysis shows popularity is not always a function of price.
+
+⸻
+
+8. Decision-Making Use Cases
+
+For Airbnb Executives
+	•	Adjust pricing strategies in competitive cities
+	•	Identify underperforming markets
+
+For Urban Planners
+	•	Locate housing pressure zones
+	•	Understand tourism concentration patterns
+
+For Strategists
+	•	Evaluate accommodation mix
+	•	Understand traveler behavior
+
+⸻
+
+9. Conclusion
+
+This dashboard converts raw Airbnb data into strategic insights through robust visualization and interactive exploration. Users can tailor their view to specific cities, accommodation types, price ranges, and engagement levels — enabling data-driven decisions about markets and policies.
+
+The design emphasizes clarity, user control, and actionable intelligence.
+
+⸻
+
+10. Prototype Reference
+
+View the interactive design here:
+🔗 https://www.figma.com/make/eoyuPW1ltE6VRLvvVLrA00/Design-Analytics-Dashboard-UI?t=6Evyz2J6wrtKbvXx-1
